@@ -7,7 +7,9 @@ body{
 h1, h2{
     font-weight: normal;
 }
-
+body {
+background-color: #E1C699;
+}
 #wrapper{
     width: 90%;
     max-width: 960px;
@@ -21,7 +23,7 @@ h1, h2{
 }
 
 #page-banner{
-    background: #eee ;
+    background: #E1C699 ;
     padding: 10px 0;
 
 }
@@ -60,16 +62,16 @@ h1, h2{
 }
 
 #book-list li:hover{
-    border-color: #9361bf;
+    border-color: #E1C699;
 }
 
 .delete{
     float: right;
-    background: #9361bf;
+    background: #5C4827;
     padding: 6px;
     border-radius: 4px;
     cursor: pointer;
-    color: white;
+    color: #FFFFFF;
 }
 
 .delete:hover{
@@ -94,8 +96,8 @@ h1, h2{
 }
 
 #add-book button{
-    border: 1px solid #9361bf;
-    background: #9361bf;
+    border: 1px solid #E1C699;
+    background: #5C4827;
     padding: 10px 20px;
     font-size: 16px;
     display: inline-block;
@@ -122,7 +124,7 @@ h1, h2{
 #add-book label{
     line-height: 52px;
 }
-asaksjdlkasjda
+
 /*
 #tabbed-content li{
     display: inline-block;
